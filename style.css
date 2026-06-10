@@ -1,0 +1,16 @@
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#180028,#4a148c,#ff4fd8,#4fc3f7);
+background-size:400% 400%;
+animation:bg 15s infinite alternate;
+color:white;
+overflow-x:hidden;
+}
+@keyframes bg{from{background-position:0 0}to{background-position:100% 100%}}
+#stars{position:fixed;inset:0;pointer-events:none}
+.hero,.card,.final{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px;text-align:center}
+img{width:90%;max-width:420px;border-radius:20px;box-shadow:0 0 30px rgba(255,255,255,.3)}
+button{padding:16px 24px;border:none;border-radius:30px;font-size:18px}
+#bgm{position:fixed;top:10px;left:10px;z-index:10}
